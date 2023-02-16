@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!------------Hero Section------------->
+
+    <div class="hero">
+        <nav>
+            <h2 class="logo">ELIZA-<span>BETH</span></h2>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Nwaugo <span>Elizabeth</span></h1>
+            <h3>I am a Web Developer.</h3>
+            <div class="newsletter">
+                <form> 
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Let's Start">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------About Section-------------------->
+    <a name="about"></a>
+    <section class="about">
+        <div class="main">
+            <img src="./images/main-img.jpg">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <hr>
+                <h5>Developer <span>& Designer</span></h5>
+                <p>I am a front-end web developer based in Nigeria. I create and design custom websites & interactive web apps that help businesses grow. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their devices.<br> If you are a business seeking web presence or an employer looking to hire, you can get in touch with me <span><a href="wa.me/+2348171226626">here</a></span>.</p>
+                <a href="#projects" class="button">VIEW MY WORKS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------Gallery Section------------->
+    <a name="gallery"></a>
+    <div class="gallery">
+        <div class="title">
+            <h2>Gallery</h2>
+            <hr>
+        </div>
+
+        <div class="box">
+            <div class="card1"></div>
+            <div class="card2"></div>
+            <div class="card3"></div>
+        </div>
+    </div>
+
+    <!----------------------Projects------------------------->
+    <a name="projects"></a>
+    <div class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <hr>
+            <div class="images">
+                <img src="./images/Capture0002.JPG" class="img" >
+                <p class="big">An Animated Sign In & Sign Up Form <br><br>
+                <span class="small">Enhancing excellent interaction with users through <br> web animations and page responsiveness. <br>Improving great user experience. <br><br><br><b style="color: #f58a5c; font-weight: 100; font-size: 18px;">Read more &#8594</b></span>
+        
+                </p>
+            </div>
+            <div class="images">
+                <img src="./images/Capture0009.JPG" class="img" >
+                <p class="big">A Responsive Multi Page Website <br><br>
+                <span class="small">Deploying modern web utilities to users making it <br>easy to scale through blogs and websites without <br>encountering difficulties of any kind. <br><br><br><b style="color: #f58a5c; font-weight: 100; font-size: 18px;">Read more &#x2192</b></span>
+                </p>
+            </div>
+            <div class="images">
+                <img src="./images/Capture0010.JPG" class="img" >
+                <p class="big">An Analogue Clock <br><br>
+                    <span class="small">Building an effective next-generation analogue <br>clock from scratch using improved Asynchronous <br>JavaScript syntaxes and modern CSS that works <br>across devices. <br><br><b style="color: #f58a5c; font-weight: 100; font-size: 18px;">Read more &#x2192</b></span>
+                </p>
+            </div>
+            <div class="images">
+                <img src="./images/TraderHack-login.JPG" class="img" >
+                <p class="big">A Log In Page Using Linear Gradients <br><br>
+                    <span class="small">Using CSS3 latest linear gradient feature for <br>great web design and improving user interface.<br><br><br><b style="color: #f58a5c; font-weight: 100; font-size: 18px;">Read more &#x2192</b></span>
+                </p>
+            </div>
+            <div class="images">
+                <img src="./images/Capture0011.JPG" class="img" >
+                <p class="big">A Simple & Analyzed Survey Form <br><br>
+                    <span class="small">A new way of gathering and compiling information using <br>the modern day survey form built using latest web utilities. <br>Allowing users share their opinions conveniently. <br><br><br><b style="color: #f58a5c; font-weight: 100; font-size: 18px;">Read more &#x2192</b></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------Contact Me------------------->
+    <a name="contact"></a>
+    <div class="contact-me">
+        <p>Let Me Make You A Beautiful Website.</p>
+        <a href="mailto:elizabethnwaugo@gmail.com" class="button-two">Hire Me</a>
+    </div>
+    <!-------------------Footer Start-------------------->
+
+    <footer id="contact">
+        <div class="contact">
+            <div class="container">
+                <h1 class="sub-title">Contact Me</h1>
+                <hr>
+                <div class="row">
+                    <div class="contact-left">
+                        <p><i class="fas fa-paper-plane"></i> elizabethnwaugo@gmail.com</p>
+                        <p><i class="fas fa-phone"></i>08171226626</p>
+                        <div class="social-icons">
+                            <a href="https://twitter.com/_Chimuanya?t=nlb9TERfg924YYbGr5fRpw&s=09"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://github.com/ELIZA-BETH002"><i class="fab fa-github-square"></i></a>
+                            <a href="mailto:elizabethnwaugo@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                            <a href="tel:+2348171226626"><i class="fas fa-phone-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form class="input">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; By Nwaugo Elizabeth</p>
+            </div>
+        </div>
+        <!--p>Nwaugo Elizabeth</p>
+       <!---- <p>For more information - please click any of the links below:</p>
+        <div class="social">
+            <a href="https://wwww.facebook.com/elizabeth.nwaugo"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://githubb.com/ELIZA-BETH002"><i class="fab fa-github"></i></a>
+            <a href="wa.me/+2348171226626"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://twitter.com/_Chimuanya?t=nlb9TERfg924YYbGr5fRpw&s=09"><i class="fab fa-twitter"></i></a>
+        </div>--->
+        <!--div class="column">
+          <ul>
+            <li>
+             <i class="fas fa-location-dot"></i>
+            " &nbsp;"
+            <a href="#" style="text-decoration: none;">Lagos, Nigeria</a>
+           </li>
+            <li>
+                <i class="fas fa-phone"></i>
+                "&nbsp;"
+                <a href="tel:+2348171226626">+2348171226626</a>
+            </li>
+            <li>
+                <i class="fas fa-envelope"></i>
+                "&nbsp;"
+                <a href="mailto:elizabethnwaugo@gmail.com">elizabethnwaugo@gmail.com</a>
+            </li>
+            <li>
+                <i class="fab fa-github"></i>
+                "&nbsp;"
+                <a href="https://github.com/ELIZA-BETH002">@ELIZA-BETH002</a>
+            </li>
+            <li>
+            <i class="fab fa-twitter"></i>
+            "&nbsp;"
+            <a href="https://twitter.com/_Chimuanya?t=nlb9TERfg924YYbGr5fRpw&s=09">@_Chimuanya</a>
+            </li>
+         </ul>
+        </div--->
+        
+    </footer>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
